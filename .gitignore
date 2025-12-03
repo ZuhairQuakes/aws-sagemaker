@@ -1,0 +1,21 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore the huge virtual environment folder
+venv/
+env/
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# SECURITY: Ignore AWS Credentials and Configs
+aws_credentials.csv
+credentials.csv
+.aws/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+accessKeys.csv
